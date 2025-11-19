@@ -10,7 +10,6 @@ body {
   color: #111;
 }
 
-/* ===== NAVBAR ===== */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -30,6 +29,8 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   color: #00a884;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .logo img { width: 32px; height: 32px; }
@@ -61,7 +62,7 @@ body {
   border-radius: 20px;
 }
 
-/* ===== INTRO ===== */
+
 .invest-intro {
   text-align: center;
   padding: 4rem 10%;
@@ -90,7 +91,6 @@ body {
   line-height: 1.6;
 }
 
-/* ===== TABS ===== */
 .toggle-tabs {
   display: flex;
   justify-content: center;
@@ -118,7 +118,7 @@ body {
   transform: scale(1.05);
 }
 
-/* ===== INVESTMENT GRID ===== */
+
 .invest-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -201,7 +201,7 @@ body {
   transform: scale(1.03);
 }
 
-/* ===== NOTE ===== */
+
 .note {
   background: #fff6d6;
   border: 1px solid #ffeaa7;
@@ -213,7 +213,7 @@ body {
   line-height: 1.6;
 }
 
-/* ===== FOOTER ===== */
+
 .footer {
   background-color: white;
   padding: 3rem 6%;
@@ -250,7 +250,7 @@ body {
   padding-top: 1rem;
 }
 
-/* ===== RESPONSIVE ===== */
+
 @media (max-width: 768px) {
   .invest-grid {
     padding: 0 5% 3rem;
