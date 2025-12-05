@@ -1,11 +1,11 @@
-// 1. LOGO CLICK → GO TO HOMEPAGE
+// go homepage
 const logo = document.querySelector(".logo");
 
 logo.addEventListener("click", function () {
   window.location.href = "index.html";
 });
 
-// 2. SEARCH BAR ALERT ON ENTER
+// search bar
 const searchBox = document.querySelector(".search-bar input");
 
 searchBox.addEventListener("keydown", function (e) {
@@ -14,12 +14,12 @@ searchBox.addEventListener("keydown", function (e) {
   }
 });
 
-// 3. WELCOME MESSAGE ON PAGE LOAD
+// welcome msg
 window.addEventListener("load", function () {
   alert("Welcome to MyFinanceMate!");
 });
 
-// 4. NAV LINKS HOVER EFFECT USING JS
+// hover effect
 const navItems = document.querySelectorAll(".nav-links a");
 
 navItems.forEach(function (link) {
