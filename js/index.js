@@ -1,11 +1,11 @@
-// go homepage
+
 const logo = document.querySelector(".logo");
 
 logo.addEventListener("click", function () {
   window.location.href = "index.html";
 });
 
-// search bar
+
 const searchBox = document.querySelector(".search-bar input");
 
 searchBox.addEventListener("keydown", function (e) {
@@ -14,12 +14,12 @@ searchBox.addEventListener("keydown", function (e) {
   }
 });
 
-// welcome msg
+
 window.addEventListener("load", function () {
   alert("Welcome to MyFinanceMate!");
 });
 
-// hover effect
+
 const navItems = document.querySelectorAll(".nav-links a");
 
 navItems.forEach(function (link) {

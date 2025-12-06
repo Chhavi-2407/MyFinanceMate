@@ -1,4 +1,4 @@
-// show/hide password
+
 const passwordFields = document.querySelectorAll('input[type="password"]');
 
 passwordFields.forEach(function (field) {
@@ -13,7 +13,7 @@ passwordFields.forEach(function (field) {
 });
 
 
-// empty field
+
 const form = document.querySelector("form");
 
 if (form) {
